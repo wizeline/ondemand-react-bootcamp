@@ -29,6 +29,7 @@ const Carousel = (props) => {
     if (items === undefined || items.length <= 0 || results_size <= 0) return null
     return (
         <div className='carouselContainer'>
+            <h2>Main Categories</h2>
             <div className="dataContainer">
                 {
                     items.map((item, index) => {

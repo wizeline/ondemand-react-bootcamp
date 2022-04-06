@@ -13,6 +13,8 @@ const Grid = (props) => {
     }
     if (results === undefined || results.length <= 0) return null
     return (
+        <div className='grid'>
+            <h2>Best Products</h2>
         <div className="gridContainer">
             {
                 results.map((item) => {
@@ -33,6 +35,7 @@ const Grid = (props) => {
                     )
                 })
             }
+        </div>
         </div>
     )
 }
